@@ -2,38 +2,36 @@
 	font-family: 'Open Sans';
 	font-weight: 300;
 	font-style: normal;
-	src: '../fonts/OpenSans-Light.ttf' format('ttf');
+	src: url('../fonts/OpenSans-Light.ttf') format('ttf');
 }
 
 @font-face {
 	font-family: 'Open Sans';
 	font-weight: 400;
 	font-style: normal;
-	src: '../fonts/OpenSans-Regular.ttf' format('ttf');
+	src: url('../fonts/OpenSans-Regular.ttf') format('ttf');
 }
 
 @font-face {
 	font-family: 'Open Sans';
 	font-weight: 600;
 	font-style: normal;
-	src: '../fonts/OpenSans-SemiBold.ttf' format('ttf');
+	src: url('../fonts/OpenSans-SemiBold.ttf') format('ttf');
 }
 
 @font-face {
 	font-family: 'Open Sans';
 	font-weight: 700;
 	font-style: normal;
-	src: '../fonts/OpenSans-Bold.ttf' format('ttf');
+	src: url('../fonts/OpenSans-Bold.ttf') format('ttf');
 }
 
 @font-face {
 	font-family: 'Open Sans';
 	font-weight: 800;
 	font-style: normal;
-	src: '../fonts/OpenSans-ExtraBold.ttf' format('ttf');
+	src: url('../fonts/OpenSans-ExtraBold.ttf') format('ttf');
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 body {
 	margin: 0;
@@ -264,7 +262,6 @@ header {
 .end-second-section {
 	margin-left: 45px;
 	width: 93%;
-	size: 2px;
 	height: 2px;
 	border: none;
 	background-color: #ECECEC;
@@ -310,6 +307,10 @@ header {
 	margin-bottom: 67px;
 	display: flex;
 	justify-content: center;
+	border: none;
+	background-color: #FF2D2D;
+	width: 130px;
+	height: 2px;
 }
 
 .third-list {
@@ -805,7 +806,7 @@ footer {
 
 	.first-title,
 	.organaisation {
-		word-break: break-word;
+		overflow-wrap: break-word;
 	}
 
 	.second-section {
@@ -1061,7 +1062,7 @@ footer {
 
 	.fifth-text {
 		width: 90%;
-		word-break: break-word;
+		overflow-wrap: break-word;
 	}
 
 	.name-line {
