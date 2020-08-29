@@ -945,7 +945,7 @@ footer {
 	.first-line {
 		flex-wrap: wrap;
 		justify-content: center;
-		margin-left: -30px;
+		width: 100%;
 	}
 
 	.name-line {
@@ -977,6 +977,59 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+
+@media screen and (max-width: 986px) {
+	.nav-wrapper {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.second-section {
+		justify-content: center;
+	}
+
+	.second-column {
+		margin-left: 0;
+	}
+
+	.second-group {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.third-section {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.third-list {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.square-group {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.first-line {
+		margin-left: auto;
+		margin-right: auto;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.name-line {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.mail-line {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 }
 
 @media screen and (max-width: 860px) {
@@ -1079,6 +1132,13 @@ footer {
 	.name-line {
 		margin-left: auto;
 		margin-right: auto;
+		width: auto;
+	}
+
+	.mail-line {
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
 	}
 
 	.right-side {
